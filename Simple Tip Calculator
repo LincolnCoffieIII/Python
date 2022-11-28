@@ -1,0 +1,7 @@
+food_amount = float(input('Please enter the Exact total bill: '))
+tip_percentage = int(input('What % do you want to tip? ')) / 100
+tip_amount = food_amount * tip_percentage
+total = tip_amount + food_amount
+print(f'Food Amount: ${food_amount}')
+print(f'Tip Amount: ${tip_amount}')
+print(f'Total: ${total}')
